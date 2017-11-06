@@ -1,6 +1,9 @@
-# Hello, world!
-print ('hello, world!')
-
-
-# 1から50までの和を計算して表示
-
+pythons = {
+  'Chapman': 'Graham',
+  'Cleese': 'John',
+  'Idle': 'Eric',
+  'Jones': 'Terry',
+  'Palin': 'Michael',
+}
+pythons['Gilliam'] = 'Terry'
+print(pythons)
